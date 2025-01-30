@@ -16,6 +16,6 @@
     "discrete-wavelets": "^5.0.15",
     "pyodide": "^0.25.0",
     "typescript": "^5.0.0",
-    "wasmlets": "^0.0.3"
+    "wasmlets": "^0.0.6"
   }
 }

@@ -101,7 +101,7 @@ export async function runBenchmarks(o: {
       let numRecTrials = 0;
       let x: any;
       while (performance.now() - startRec < targetDurationMs) {
-        x = waverec(coeffs, wavelet as Wavelet, data.length);
+        x = waverec(coeffs, wavelet as Wavelet);
         numRecTrials++;
       }
       const endRec = performance.now();
